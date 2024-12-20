@@ -1,7 +1,9 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
    <style>
-    h1 {
-      font: italic 22px times-new-roman;
+    .text {
+      font: italic 22px "Times New Roman";
+      color: #ffffff;
+      text-align: center;
     }
     .hand-top {
       animation-duration: 5s;
@@ -9,6 +11,8 @@
     }
     .hand-down {
       animation-duration: 5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
       animation-name: arms-anim-down;
     }
     .star-middle {
@@ -21,16 +25,19 @@
     }
 
     @keyframes star-small {
-      0% {
-        translater: 0 0px
-      }
-      50% {
-        translater: 0 32px
-      }
-      100% {
-        translater: 0 -32px
-      }
-    }
+     0%, 100% {
+       transform: translateY(0px);
+     }
+     25% {
+       transform: translateY(16px);
+     }
+     50% {
+       transform: translateY(-32px);
+     }
+     75% {
+       transform: translateY(16px);
+     }
+   }
   </style>
   <rect width="1200" height="800" fill="#E5E5E5"/>
   <g id="Frame 1" clip-path="url(#clip0_1669_162202)">
@@ -134,7 +141,7 @@
       <stop offset="1" stop-color="white"/>
     </linearGradient>
     
-    <h1 class="text">Hi there 👋!!</h1>
+    <text class="text">Hi there 👋!!</text>
     <clipPath id="clip0_1669_162202">
     <rect width="1200" height="800" fill="white"/>
     </clipPath>
