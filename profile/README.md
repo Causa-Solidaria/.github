@@ -1,3 +1,3 @@
-<div>
-  <img src="./../Figma basics.svg" />
+<div align="center">
+  <img src="./../Figma basics.svg" width="75%"/>
 </div>
