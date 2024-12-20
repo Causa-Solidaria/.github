@@ -1,7 +1,7 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="1200" height="800" fill="#E5E5E5"/>
   <style>
-    .text {
+    h1 {
       font: italic 22px times-new-roman;
     }
     .hand-top {
@@ -135,7 +135,7 @@
       <stop offset="1" stop-color="white"/>
     </linearGradient>
     
-     <text x="600" y="400" class="text">Hi there 👋!!</text>
+    <h1 class="text">Hi there 👋!!</h1>
     <clipPath id="clip0_1669_162202">
     <rect width="1200" height="800" fill="white"/>
     </clipPath>
