@@ -7,6 +7,8 @@
     }
     .hand-top {
       animation-duration: 5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
       animation-name: arms-anim-top;
     }
     .hand-down {
@@ -17,10 +19,14 @@
     }
     .star-middle {
       animation-duration: 5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
       animation-name: star-middle;
     }
     .star{
       animation-duration: 5s;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
       animation-name: star-small;
     }
 
@@ -29,13 +35,27 @@
        transform: translateY(0px);
      }
      25% {
-       transform: translateY(16px);
+       transform: translateY(-4px);
+     }
+     50% {
+       transform: translateY(8px);
+     }
+     75% {
+       transform: translateY(-4px);
+     }
+   }
+   @keyframes star-middle {
+     0%, 100% {
+       transform: translateY(0px);
+     }
+     25% {
+       transform: translateY(16px) rotate(1deg);
      }
      50% {
        transform: translateY(-32px);
      }
      75% {
-       transform: translateY(16px);
+       transform: translateY(16px) rotate(-1deg);
      }
    }
   </style>
