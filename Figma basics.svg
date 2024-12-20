@@ -1,9 +1,9 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
    <style>
     .text {
-      font: italic 22px "Times New Roman";
-      color: #ffffff;
-      text-align: center;
+      font: italic 46px "Times New Roman";
+      fill: #ffffff;
+      text-anchor: middle;
     }
     .hand-top {
       animation-duration: 5s;
@@ -160,10 +160,9 @@
       <stop/>
       <stop offset="1" stop-color="white"/>
     </linearGradient>
-    
-    <text class="text">Hi there 👋!!</text>
     <clipPath id="clip0_1669_162202">
     <rect width="1200" height="800" fill="white"/>
     </clipPath>
   </defs>
+    <text x="600" y="400" class="text">Hi there 👋!!</text>
 </svg>
