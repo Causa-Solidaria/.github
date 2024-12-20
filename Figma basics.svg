@@ -1,6 +1,5 @@
 <svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="800" fill="#E5E5E5"/>
-  <style>
+   <style>
     h1 {
       font: italic 22px times-new-roman;
     }
@@ -32,8 +31,8 @@
         translater: 0 -32px
       }
     }
-  
   </style>
+  <rect width="1200" height="800" fill="#E5E5E5"/>
   <g id="Frame 1" clip-path="url(#clip0_1669_162202)">
     <rect width="1200" height="800" fill="url(#paint0_linear_1669_162202)"/>
     <g id="Vector134" class="hand-top">
