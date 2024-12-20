@@ -1,2 +1,3 @@
-
-hii there 👋👋!!! 
+<div>
+  <img src="./../Figma basics.svg" />
+</div>
