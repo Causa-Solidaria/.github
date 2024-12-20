@@ -2,6 +2,7 @@
    <style>
     .text {
       font: italic 46px "Times New Roman";
+      font-weight: 900;
       fill: #ffffff;
       text-anchor: middle;
     }
@@ -56,6 +57,34 @@
      }
      75% {
        transform: translateY(16px) rotate(-1deg);
+     }
+   }
+   @keyframes arms-anim-top {
+     0%, 100% {
+       transform: translateY(0px);
+     }
+     25% {
+       transform: translateY(6px) translateX(-8px) rotate(1deg);
+     }
+     50% {
+       transform: translateY(-12px);
+     }
+     75% {
+       transform: translateY(6px) rotate(-1deg);
+     }
+   }
+   @keyframes arms-anim-down {
+     0%, 100% {
+       transform: translateY(0px);
+     }
+     25% {
+       transform: translateY(-6px) translateX(-8px) rotate(-1deg);
+     }
+     50% {
+       transform: translateY(12px);
+     }
+     75% {
+       transform: translateY(-6px) rotate(1deg);
      }
    }
   </style>
