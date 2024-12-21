@@ -1,8 +1,15 @@
+
+### linguagens diponiveis do README
+* [Português Brasileiro](./README_pt_br.md)
+* [English](./README.md)
+
+    
+# Ola !
+
 <div align="center">
   <img src="./../Figma basics.svg" width="75%"/>
 </div><br>
 
-# hi
 Bem-vindo à organização oficial do projeto **Causa Solidária** no GitHub!  
 
 ## 📜 Sobre a Organização  
