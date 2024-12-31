@@ -1,7 +1,4 @@
-
-### languages ​​available for readme
-* [Português Brasileiro](./README_pt_br.md)
-* [English](./README.md)
+languages ​​available for readme: [Português Brasileiro](./README_pt_br.md) and [English](./README.md)
 
     
 # hi !
