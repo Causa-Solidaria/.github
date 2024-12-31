@@ -1,7 +1,6 @@
-languages ​​available for readme: [Português Brasileiro](./README_pt_br.md) and [English](./README.md)
-
-    
-# hi !
+<div align="center">
+    <p> languages ​​available for readme: <a href="./README_pt_br.md"> Português Brasileiro</a> and <a href="./README.md">English</a>
+</div>
 
 <div align="center">
   <img src="./../Figma basics.svg" width="65%" />
